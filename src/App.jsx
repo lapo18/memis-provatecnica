@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import { Col, Row } from 'react-bootstrap';
+import bgWoods from './assets/bg-woods.jpg'
 function App() {
 
   return (
@@ -51,8 +52,7 @@ function App() {
     </Navbar>
     <Navbar style={{height:'9rem'}}className="bg-body-tertiary">
       <Container>
-        <Row>
-          <Col xs={12} lg={6} >
+    
             <Container>
               <Row>
                 <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
@@ -61,24 +61,31 @@ function App() {
                 <Navbar.Brand href="#home">Intercept programs playground</Navbar.Brand>
               </Row>  
             </Container>
-          </Col>          
-          <Col xs={12} lg={6}>
-            <Nav style={{width:'100%',flexDirection:'row', gap:'15px', flexWrap:'wrap'}}>
+           
+          
+            <Nav style={{width:'30rem', flexDirection:'row', gap:'15px', flexWrap:'wrap'}}>
                 <Nav.Link href="#deets">Home
                 </Nav.Link>
                 <Nav.Link href="#deets">Links</Nav.Link>
                 <Nav.Link href="#deets">About</Nav.Link>
                 <Nav.Link href="#deets">Contact</Nav.Link> 
             </Nav>
-          </Col>
-        </Row>
       </Container>
     </Navbar>
     <main>
       <Container fluid>
-        <Row>
-          <Col  lg={3} className='bg-body-secondary'>sa</Col>
-          <Col lg={9}>das</Col>
+        <Row >
+          <Col  lg={5} className='bg-body-secondary'>
+            <span>05 november / / Design  </span>
+            <h1>This is Standar Post</h1>
+            <p>This is what an ordinary post looks like and you're reading a custom excerpt 
+              right now. Have fun looking around the theme and don't forget to check 
+              it out on your phone!</p>
+
+            <a href="">Read the post</a>
+            <iframe style={{display:'block'}} src="https://survey.euro.confirmit.com/wix/4/p805779578144.aspx?clientID=AAA2123" frameborder="0" height={'500rem'} width={'100%'}></iframe>
+          </Col>
+          <Col style={{backgroundImage:'url(./src/assets/bg-woods.jpg)'}} lg={7}></Col>
         </Row>
       </Container>
     </main>
