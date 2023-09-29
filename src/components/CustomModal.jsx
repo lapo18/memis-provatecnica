@@ -34,7 +34,7 @@ CustomModal.propTypes = {
   handleClose: PropTypes.func.isRequired,
   city: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
-  categories: PropTypes.string.isRequired,
+  categories: PropTypes.array.isRequired,
   type: PropTypes.string.isRequired,
 }
 

@@ -12,7 +12,7 @@ function Travel() {
    const [show, setShow] = useState(false)
   const [modalData, setModalData] = useState({
     city: '',
-    price: '',
+    price: -1,
     categories: [],
      type: '',
    })

@@ -43,7 +43,9 @@ function App() {
                   <Nav.Link href="#features">Design</Nav.Link>
                   <Nav.Link href="#pricing">Code</Nav.Link>
                   <Nav.Link href="#pricing">Photography</Nav.Link>
-                  <Nav.Link href="#pricing">Travel</Nav.Link>
+                  <Nav.Link href="/travel">
+                    Travel
+                  </Nav.Link>
                 </Nav>
                 <Nav style={{ flexDirection: 'row', gap: '15px' }}>
                   <Nav.Link href="#deets">
