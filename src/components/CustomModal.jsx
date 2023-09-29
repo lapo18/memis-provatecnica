@@ -38,4 +38,4 @@ CustomModal.propTypes = {
   type: PropTypes.string.isRequired,
 }
 
-export default CustomModal
+export  {CustomModal}
