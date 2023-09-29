@@ -4,7 +4,6 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import 'bootstrap-icons/font/bootstrap-icons.min.css'
 import { Col, Row, Button, Form, Card } from 'react-bootstrap'
-import survey from './components/Form'
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [username, setUsername] = useState('')
