@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './routes/App.jsx'
 import Contact from './routes/contact.jsx'
-import Travel from './routes/Travel.jsx'
+import Travel from './routes/fly.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
