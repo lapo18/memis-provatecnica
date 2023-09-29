@@ -7,7 +7,7 @@ import {
   Card,
 } from 'react-bootstrap'
 import { useState } from 'react'
-import { CustomModal } from '/src/components/customModal'
+import { CustomModal } from '../customModal'
 function Travel() {
    const [show, setShow] = useState(false)
   const [modalData, setModalData] = useState({
